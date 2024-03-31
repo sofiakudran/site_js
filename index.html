@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Neon Store</title>
+	<!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script defer type="text/javascript" src="app/script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<h1 class="header__title">Неонові вивіски</h1>
+			<h3 class="header__title1">since 2024</h3>
+		</header>
+		<nav class="sort" id="sort">
+			<div class="burger" onclick="toggleMobileMenu()">
+				<div class="burger__bar"></div>
+				<div class="burger__bar"></div>
+				<div class="burger__bar"></div>
+			</div>
+			<a class="sort__item" href="portfolio.html">Портфоліо</a>
+			<a class="sort__item" href="blog.html">Замовити</a>
+			<a class="sort__item" href="response.html">Відгуки</a>
+			<a class="sort__item" href="cooperation.html">Ціни</a>
+			<a class="sort__item" href="about.html">Про нас</a>
+		</nav>
+		<main class="content">
+			<article class="slide">
+    			<div class="text" onclick="showDiscountAlert()">Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!! Хапай свою знижку!!!</div>
+			</article>
+			<article class="card">
+				<header class="card__header1"></header>
+				<section class="card__content">
+					<p><h2 class="card__title">В подарунок</h2></p>
+					<hr>
+					<p>Неонові вивіски - це оригінальний подарунок для людей, хто цінує затишок в своєму будинку. А також вони прекрасно прикрасять будь-яке торжество з фотозоні.</p>
+				</section>
+			</article>
+			<article class="card">
+				<header class="card__header2"></header>
+				<section class="card__content">
+					<p><h2 class="card__title">Для бізнесу</h2></p>
+					<hr>
+					<p>Неонові вивіски - відмінний варіант для декорації в кафе, ресторані чи магазині. Неонова вивіска стане об'єктом, з яким фотографуються, відповідно, про вас більше дізнаються!</p>
+				</section>
+			</article>
+			<article class="card">
+				<header class="card__header3"></header>
+				<section class="card__content">
+					<p><h2 class="card__title">Для дому</h2></p>
+					<hr>
+					<p>Неонові вивіски роблять простір стильним і затишним, до того ж вони безпечні і за дітей не варто переживати, тому вночі можна їх використовувати в якості свічника в дитячій кімнаті.</p>
+				</section>
+			</article>
+		</main>
+		<footer class="footer">Футер</footer>
+	</div>
+	<script type="text/javascript">
+		const nav = document.getElementById('sort');
+
+		function toggleMobileMenu() {
+			nav.classList.toggle('open');
+		}
+	</script>
+</body>
+</html>
